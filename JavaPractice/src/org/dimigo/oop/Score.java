@@ -40,9 +40,13 @@ public class Score {
 		StringBuilder sb = new StringBuilder("국어 점수 : ")
 			.append(kor + " 점\n")
 			.append("수학 점수 : ")
-			.append(kor + " 점\n")
+			.append(math + " 점\n")
 			.append("영어 점수 : ")
-			.append(kor + " 점\n");
+			.append(eng + " 점\n")
+			.append("총점 : ")
+			.append(tot + " 점\n")
+			.append("평균 : ")
+			.append(ave + " 점\n");
 		System.out.println(sb);
 	}
 
