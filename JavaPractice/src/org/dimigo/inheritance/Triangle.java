@@ -19,6 +19,11 @@ public class Triangle extends Figure {
 	private int width;
 	private int height;
 	
+	public void printCenter() {
+		System.out.print("삼각형 ");
+		super.printCenter();
+	}
+	
 	public Triangle(int width, int height) {
 		super(0, 0);
 		this.width = width;

@@ -19,6 +19,11 @@ public class Rectangle extends Figure {
 	private int width;
 	private int height;
 	
+	public void printCenter() {
+		System.out.print("사각형 ");
+		super.printCenter();
+	}
+	
 	public Rectangle(int width, int height) {
 		super(0, 0);
 		this.width = width;

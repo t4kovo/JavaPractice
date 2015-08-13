@@ -18,6 +18,11 @@ package org.dimigo.inheritance;
 public class Circle extends Figure {
 	private int radius;
 	
+	public void printCenter() {
+		System.out.print("원 ");
+		super.printCenter();
+	}
+	
 	public Circle(int radius) {
 		super(0, 0);
 		this.radius = radius;
