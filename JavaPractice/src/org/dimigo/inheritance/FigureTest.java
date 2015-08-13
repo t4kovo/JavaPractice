@@ -47,9 +47,6 @@ public class FigureTest {
 		c.printCenter();
 		t.printCenter();
 		r.printCenter();
-//		c.calcArea();
-//		t.calcArea();
-//		r.calcArea();
 	}
 
 }
