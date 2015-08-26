@@ -3,8 +3,6 @@
  */
 package org.dimigo.inheritance;
 
-import java.text.Format;
-
 /**
  * <pre>
  * org.dimigo.inheritance
