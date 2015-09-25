@@ -23,6 +23,7 @@ public class MelonChart {
 	public static void main(String[] args) {
 		List<Music> list = new ArrayList<Music>();
 		
+		// 멜론 차트
 		System.out.println("-- << 멜론 차트 >> --");
 		
 		list.add(new Music("바람이나 좀 쐐","개리"));
@@ -32,6 +33,8 @@ public class MelonChart {
 		printList(list);
 		
 		System.out.println();
+		
+		// 2위 곡 추가
 		System.out.println("-- << 2위 곡 추가 >> --");
 		
 		list.add(1, new Music("레옹", "이유갓지"));
@@ -39,6 +42,8 @@ public class MelonChart {
 		printList(list);
 		
 		System.out.println();
+		
+		// 3위 곡 변경
 		System.out.println("-- << 3위 곡 변경 >> --");
 		
 		list.set(2, new Music("맙소사", "황태지"));
@@ -46,6 +51,8 @@ public class MelonChart {
 		printList(list);
 		
 		System.out.println();
+		
+		// 4위 곡 삭제
 		System.out.println("-- << 4위 곡 삭제 >> --");
 		
 		list.remove(3);
@@ -53,6 +60,8 @@ public class MelonChart {
 		printList(list);
 		
 		System.out.println();
+		
+		// 전체 리스트 삭제
 		System.out.println("-- << 전체 리스트 삭제 >> --");
 		
 		list.clear();
